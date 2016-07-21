@@ -20,7 +20,8 @@ background-color: black
 #input{
 	color: white;
 }
-.answer{
-	text-align: center;
-	margin-top: 50%;
+
+#answer{
+	color: blue;
+	margin-top:25%;
 }
