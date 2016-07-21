@@ -16,6 +16,11 @@ background-color: black
   top: 17%;
   left: 43%;
 }
-#input {
-  color: white;
+
+#input{
+	color: white;
+}
+.answer{
+	text-align: center;
+	margin-top: 50%;
 }
