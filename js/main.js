@@ -16,6 +16,9 @@ function returnAnswer(){
   var rn = Math.floor(Math.random() * answer.length);
   document.getElementById("answer").innerHTML = answer[rn];
 }
-
+function clearfields() {
+  document.getElementById("answer").innerHTML = "";
+  input.value = "";
+}
 
 //clear will reset input and returned answer
