@@ -5,15 +5,20 @@
     <link rel="stylesheet" href="css/main.css"></link>
   </head>
   <body>
+    <div class="row">
+      <h4>Questions asked</h4>
+      <input id="question_asked" class="col s2 m2 offset-s8m10"></input>
+    </div>
+
   <div class="row">
     <div class="circle1 col s2 m4 offset-m4">
       <div class="position">
         <div class="col offset-s2 s8 circle-2">
-          <p class="center" id="answer"></p>
+          <p class="center.align circle_size" id="answer"></p>
         </div>
         <input class="col s12" type="text" name="userinput" id="input"></input>
-        <button id='roll' class="col s4 btn blue" onclick="roll()">Roll</button>
-        <button id='clear' class="col s4 btn blue" onclick="clearfields()">Clear</button>
+        <button id='roll' class="col s6 btn blue" onclick="roll()">Roll</button>
+        <button id='clear' class="col s6 btn blue" onclick="clearfields()">Clear</button>
       </div>
     </div>
   </div>
