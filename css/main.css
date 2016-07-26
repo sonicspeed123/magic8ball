@@ -24,6 +24,7 @@ background-color: black
 #answer{
 	color: blue;
 	margin-top:25%;
+  max-width: 200px;
 }
 .circle_size {
   position: absolute;
