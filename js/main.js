@@ -1,6 +1,7 @@
 var question;
 var answer = ["Your future looks intersting", "You are in for some moneies"];
 var input = document.getElementById("input");
+var log;
 
 function roll(){
   saveQuestion();
@@ -9,6 +10,9 @@ function roll(){
 
 function saveQuestion() {
   question = input.value;
+  if (input.value === ""){
+    document.createElementByID("input").innerHTML = ("guess again")
+  };
   input.value = "";
 }
 
@@ -21,4 +25,7 @@ function clearfields() {
   input.value = "";
 }
 
+function returnLog(){
+  document.createElementByID("log")
+}
 //clear will reset input and returned answer
